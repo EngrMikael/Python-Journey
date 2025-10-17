@@ -13,4 +13,10 @@ num2 = int(input("Enter second Number: "))
 operator = input("Enter Operator: (+, -, /, *): ")
 
 result = calculate_two_num(num1, num2, operator)
+
 print(f"The Result is: {result}")
+
+
+# this is a nire pythonic version of Exercise 1.5/1.py,
+# for the function calculate_two_num() i used dictionary instead of 
+# multiple lines of if else statements.
