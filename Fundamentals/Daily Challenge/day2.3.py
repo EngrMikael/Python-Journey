@@ -18,3 +18,15 @@ If username doesn’t exist → print "User not found "
 
 Goal: Combine conditionals with dictionary lookups.
 '''
+
+
+acoounts = {
+  name: "Michael",
+  password: "pass123",
+  name2: "John",
+  password2: "hello",
+  name3: "admin"
+  password3: "root"
+}
+
+print("Access Granted") if 
