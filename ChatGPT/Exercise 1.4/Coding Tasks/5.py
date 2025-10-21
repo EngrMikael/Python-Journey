@@ -46,6 +46,7 @@ soil_moisture = int(input("Enter Soil Moisture Level: (0-100): "))
 # whether it is raining or not based on the user input.
 isRain = rain == "y"
 
+light_level = max(0, min(light_level, 100))
 # The code snippet you provided is implementing the logic for the irrigation system based on the given
 # requirements for a greenhouse manager script. Here's a breakdown of what the code does:
 #Irrigation system

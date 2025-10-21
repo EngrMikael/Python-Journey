@@ -9,5 +9,3 @@ if num % 2 == 0 and num > 0:
     print("The number is Positive Even")
 else:
     print("Others")
-
-print(num % 2)

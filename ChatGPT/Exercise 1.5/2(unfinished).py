@@ -10,4 +10,4 @@ name = input("What's your name: ")
 age = int(input("How old are you: "))
 sex = input("Enter Sex: (male/female): ")
 
-print(greet(name, age, sex))
+print(greet(name, age, sex))            
