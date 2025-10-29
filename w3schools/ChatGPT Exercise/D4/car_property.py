@@ -15,3 +15,19 @@
 # Expected Behavior:
 # Each car has its own brand/year, 
 # but they both share the same number of wheels.
+class Car:
+    wheels = 4
+    def __init__(self, brand, year):
+        self.brand = brand
+        self.year = year
+    def display_info(self):
+        print(f"\nBrand: {self.brand}\nYear: {self.year}\nWheel Count: {self.wheels}")
+
+car1_brand = input("Enter Brand for Car 1: ")
+car1_year = input("Enter Year for Car 1: ")
+car1_info = Car(car1_brand, car1_year)
+car2_brand = input("Enter Brand for Car 2: ")
+car2_year = input("Enter Year for Car 2: ")
+car2_info = Car(car2_brand, car2_year)
+car1_info.display_info()
+car2_info.display_info()
