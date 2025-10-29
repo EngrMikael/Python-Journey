@@ -9,3 +9,4 @@
 # Now print car2.color — what happens?
 
 # ✅ Goal: Understand dynamic property addition.
+# i was busy today i will not be able to update
